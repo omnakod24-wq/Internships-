@@ -1,7 +1,16 @@
-1. Run the script; it should load the CSV without errors.
-2. Confirm the shape and column names are printed.
-3. Confirm duplicate rows are removed before calculations.
-4. Confirm numeric columns are converted to numeric values.
-5. Confirm total revenue, average, maximum, and minimum are reported.
-6. Confirm the best product by revenue is identified.
-7. Confirm analysis_report.md is created or refreshed.
+# Week 3 Test Cases
+
+1. Run the script with the supplied CSV. It should load 100 rows.
+2. Check that the first five rows are displayed.
+3. Check that the shape is displayed as 100 rows and 7 columns.
+4. Check that column names and data types are displayed.
+5. Check missing-value counts before and after cleaning.
+6. Check that duplicate records are removed.
+7. Check total revenue: ₹12,365,048.00 for the supplied original dataset.
+8. Check average sale: ₹123,650.48.
+9. Check highest sale: ₹373,932.00.
+10. Check lowest sale: ₹6,540.00.
+11. Check that Laptop is identified as the highest-revenue product.
+12. Check that analysis_report.md is created or updated.
+13. Temporarily rename the CSV and confirm a clear file-not-found message appears.
+14. Restore the CSV and run the program again.
