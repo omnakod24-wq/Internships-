@@ -1,0 +1,7 @@
+1. Run the script; it should load the CSV without errors.
+2. Confirm the shape and column names are printed.
+3. Confirm duplicate rows are removed before calculations.
+4. Confirm numeric columns are converted to numeric values.
+5. Confirm total revenue, average, maximum, and minimum are reported.
+6. Confirm the best product by revenue is identified.
+7. Confirm analysis_report.md is created or refreshed.
