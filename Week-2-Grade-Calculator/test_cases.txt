@@ -1,0 +1,10 @@
+1. 95 -> Grade A.
+2. 85 -> Grade B.
+3. 75 -> Grade C.
+4. 65 -> Grade D.
+5. 40 -> Grade F.
+6. 0 -> Grade F.
+7. 100 -> Grade A.
+8. -1 -> rejected as out of range.
+9. 101 -> rejected as out of range.
+10. "hello" -> rejected; program asks again.
