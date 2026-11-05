@@ -1,0 +1,15 @@
+# Week 4 — Test cases
+
+1. **Dataset exists:** run main.py with data/sales_data.csv present; the analysis should start.
+2. **Dataset dimensions:** the supplied CSV should load as 100 rows and 7 columns.
+3. **Required columns:** verify all seven expected column names are present.
+4. **Missing values:** introduce a blank Region in a temporary copy; it should be labeled Unknown.
+5. **Invalid numeric data:** introduce text in Quantity in a temporary copy; the affected row should not be included in the valid analysis.
+6. **Duplicate records:** duplicate one complete row in a temporary copy; the duplicate should be removed.
+7. **Summary metrics:** verify total, average, maximum, and minimum are calculated from valid Total_Sales values.
+8. **Product grouping:** verify product totals are produced for every product category.
+9. **Monthly grouping:** verify the monthly line chart uses parsed Date values grouped by month.
+10. **Charts:** after running, confirm sales_by_product.png, monthly_sales_trend.png, and sales_by_region.png exist and are non-empty.
+11. **Report:** confirm report/analysis_report.md is created and contains metrics, insights, and chart links.
+12. **Missing file:** temporarily rename the CSV; the program should display a clear error instead of crashing with an unhandled traceback.
+13. **Missing column:** remove a required column in a temporary CSV; the program should report the missing column.
