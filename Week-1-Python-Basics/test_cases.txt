@@ -1,0 +1,6 @@
+1. Enter normal values for all five prompts; all details should appear.
+2. Enter a full name with a space; it should display correctly.
+3. Enter a hobby with spaces, such as "Playing cricket".
+4. Add spaces before and after an answer; strip() should remove them.
+5. Enter a different city and course; the program should display those values.
+6. Leave an answer blank; the program should continue and display a blank value.
